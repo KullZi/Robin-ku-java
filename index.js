@@ -23,7 +23,6 @@ const programmingJokes = [
   }
   
   function tellTwoJokes() {
-    // Get two unique random jokes
     let joke1, joke2;
     do {
       joke1 = getRandomJoke(programmingJokes);
